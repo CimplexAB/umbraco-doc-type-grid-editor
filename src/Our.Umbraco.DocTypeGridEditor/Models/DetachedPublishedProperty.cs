@@ -81,6 +81,11 @@ namespace Our.Umbraco.DocTypeGridEditor.Models
             return XPathValue;
         }
 
+        public object GetDeliveryApiValue(bool expanding, string culture = null, string segment = null)
+        {
+            throw new NotImplementedException();
+        }
+
         public IPublishedPropertyType PropertyType
         {
             get
